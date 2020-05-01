@@ -11,7 +11,7 @@ class Song
   # Control for duplicates when you code your 
   # .genres class method, not when you add 
   # genres to the original @@genres array.
-  @@genres = []
+  # @@genres = []
   
 # this should be deleted at some point
 # def self.total_genre_entries
@@ -73,5 +73,5 @@ cus_umak = Song.new("Cus Ummach", "Haifa Wehbe", "Rai")
 # puts Song.count
 # Song.genres
 # Song.artists
-Song.genre_count
+# Song.genre_count
 # Song.artist_count
